@@ -1,0 +1,927 @@
+{
+    "color": {
+        "color": {
+            "primary": {
+                "base00": {
+                    "description": "Primary color #F9E95B (support color, user for decorative elements) ",
+                    "type": "color",
+                    "value": "#005ca9ff"
+                },
+                "base01": {
+                    "description": "Primary color #F9E95B (support color, user for decorative elements) ",
+                    "type": "color",
+                    "value": "#f9e95bff"
+                }
+            },
+            "secondary": {
+                "base10": {
+                    "description": "Sec.color #004580 (Secondary color, user for important text  (exemple title o introductory labels)",
+                    "type": "color",
+                    "value": "#004580ff"
+                },
+                "base11": {
+                    "description": "Sec.color #B6D4ED (Secondary Color, used for: label, background static element)",
+                    "type": "color",
+                    "value": "#b6d4edff"
+                },
+                "base12": {
+                    "description": "Sec.color #DAE9F6 (Secondary color, used for border element)",
+                    "type": "color",
+                    "value": "#dae9f6ff"
+                },
+                "base13": {
+                    "description": "sec.color #FFFFFF (Secondary color, used for background element (exemple: form)",
+                    "type": "color",
+                    "value": "#ffffffff"
+                }
+            },
+            "interactive": {
+                "base01id": {
+                    "description": "Int.color #FFEE55 (Interactive color, status default, user for CTA and as an indicator of interactive elements)",
+                    "type": "color",
+                    "value": "#ffee55ff"
+                },
+                "base01ih": {
+                    "description": "Int.color #FFF06B (Interactive color, status hover, user for CTA and as an indicator of interactive elements)",
+                    "type": "color",
+                    "value": "#fff06bff"
+                },
+                "base01ia": {
+                    "description": "Int.color #FFE32E (Interactive color, status active, user for CTA and as an indicator of interactive elements)",
+                    "type": "color",
+                    "value": "#ffe32eff"
+                },
+                "base00id-1": {
+                    "description": "Interactive color #DAE9F6  (status default, user for terziary CTA, link and as an indicator of interactive elements)",
+                    "type": "color",
+                    "value": "#dae9f6ff"
+                },
+                "base00id": {
+                    "description": "Int.color #0080EB (Interactive color, status default, user for terziary CTA, link and as an indicator of interactive elements)",
+                    "type": "color",
+                    "value": "#0080ebff"
+                },
+                "base00ih": {
+                    "description": "Int.color #0067BD (Interactive color, status hover, user for terziary CTA, link and as an indicator of interactive elements)",
+                    "type": "color",
+                    "value": "#0067bdff"
+                },
+                "base00ia": {
+                    "description": "Int.color #0075D6 (Interactive color, status active, user for terziary CTA, link and as an indicator of interactive elements)",
+                    "type": "color",
+                    "value": "#0075d6ff"
+                },
+                "base0ix": {
+                    "description": "Int.color #E0E5EB (Interactive color, status disabled, user for terziary CTA, link and as an indicator of interactive elements)",
+                    "type": "color",
+                    "value": "#e0e5ebff"
+                },
+                "base0ix-1": {
+                    "description": "Int.color #6E7483 (Interactive color, status disabled, user for terziary CTA, link and as an indicator of interactive elements)",
+                    "type": "color",
+                    "value": "#6e7483ff"
+                }
+            },
+            "semantic": {
+                "base0sw": {
+                    "description": "Sem.color #002A4C (used as a status indicator)",
+                    "type": "color",
+                    "value": "#002a4cff"
+                },
+                "base0sv": {
+                    "description": "Sem.color #6E4AFF (used as a status indicator)",
+                    "type": "color",
+                    "value": "#6e4affff"
+                },
+                "base0sr": {
+                    "description": "Sem.color #FF6C6C (used as a status indicator)",
+                    "type": "color",
+                    "value": "#ff6c6cff"
+                },
+                "base0sc": {
+                    "description": "Sem.color #68F991 (used as a status indicator)",
+                    "type": "color",
+                    "value": "#68f991ff"
+                },
+                "base0sp": {
+                    "description": "Sem.color #FFC531 (used as a status indicator)",
+                    "type": "color",
+                    "value": "#ffc531ff"
+                },
+                "base0sn": {
+                    "description": "Sem.color #66FFFF (used as a status indicator)",
+                    "type": "color",
+                    "value": "#66ffffff"
+                },
+                "base0sd": {
+                    "description": "Sem.color #DBEFFB (used as a status indicator)",
+                    "type": "color",
+                    "value": "#dbeffbff"
+                }
+            },
+            "extended": {
+                "dark-neutrals": {
+                    "base0exd1": {
+                        "description": "Ext.color #1A233F (user for label) ",
+                        "type": "color",
+                        "value": "#1a233fff"
+                    },
+                    "base0exd2": {
+                        "description": "Ext.color  #002A4C (used for overlay)",
+                        "type": "color",
+                        "value": "#002a4cff"
+                    },
+                    "base0exd3": {
+                        "description": "Ext.color #374461 (used for text, specifically for td and paragraph) ",
+                        "type": "color",
+                        "value": "#374461ff"
+                    }
+                },
+                "mid-neutrals": {
+                    "base0exm1": {
+                        "description": "Ext.color  #515F79 (used for text, specifically for th)",
+                        "type": "color",
+                        "value": "#515f79ff"
+                    },
+                    "base0exm2": {
+                        "description": "Ext.color  #5F6A7E (used for text, specifically for subtitles)",
+                        "type": "color",
+                        "value": "#5f6a7eff"
+                    }
+                },
+                "light-neutrals": {
+                    "base0exl1": {
+                        "description": "Ext.color  #A5A7B2 (used light neutrals as subtle backgrounds, or simply to create secondary attention towards a component)",
+                        "type": "color",
+                        "value": "#a5a7b2ff"
+                    },
+                    "base0exl2": {
+                        "description": "Ext.color  #CECFD5 (used light neutrals as subtle backgrounds, or simply to create secondary attention towards a component)",
+                        "type": "color",
+                        "value": "#cecfd5ff"
+                    },
+                    "base0exl3": {
+                        "description": "Ext.color  #FBFBFB (used for background, specifically for view or card)",
+                        "type": "color",
+                        "value": "#fbfbfbff"
+                    }
+                }
+            }
+        }
+    },
+    "gradient": {
+        "gradient": {
+            "white": {
+                "description": null,
+                "type": "custom-gradient",
+                "value": {
+                    "gradientType": "linear",
+                    "rotation": 90,
+                    "stops": [
+                        {
+                            "position": 0,
+                            "color": "#ffffffff"
+                        },
+                        {
+                            "position": 0.66,
+                            "color": "#ffffffff"
+                        },
+                        {
+                            "position": 0.66,
+                            "color": "#ffffffff"
+                        },
+                        {
+                            "position": 1,
+                            "color": "#ffffffff"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "grid": {
+        "layout": {
+            "12-col": {
+                "desktop": {
+                    "description": null,
+                    "type": "custom-grid",
+                    "value": {
+                        "pattern": "columns",
+                        "gutterSize": 16,
+                        "alignment": "stretch",
+                        "count": 12,
+                        "offset": 8
+                    }
+                }
+            }
+        }
+    },
+    "font": {
+        "label": {
+            "medium": {
+                "label0md05": {
+                    "description": "Constant typography label medium level-5",
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 18,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 500,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 21,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                },
+                "label0md04": {
+                    "description": "Constant typography label medium level-4",
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 16,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 500,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 18,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                },
+                "label0md03": {
+                    "description": "Constant typography label medium level-3",
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 14,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 500,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 16,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                },
+                "label0md02": {
+                    "description": "Constant typography label medium level-2",
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 12,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 500,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 14,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                },
+                "label0md01": {
+                    "description": "Constant typography label medium level-1",
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 10,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 500,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 11,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                },
+                "label0md00": {
+                    "description": "Constant typography label medium level-0",
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 8,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 500,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 9,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                }
+            },
+            "regular": {
+                "label0rg05": {
+                    "description": "Constant typography label regular level-5",
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 18,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 21,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "capitalize"
+                    }
+                },
+                "label0rg04": {
+                    "description": "Constant typography label regular level-4",
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 16,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 18,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                },
+                "label0rg03": {
+                    "description": "Constant typography label regular level-3",
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 14,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 16,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                },
+                "label0rg02": {
+                    "description": "Constant typography label regular level-1",
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 12,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 14,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                },
+                "label0rg01": {
+                    "description": "Constant typography label regular level-1",
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 10,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 11,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                },
+                "label0rg00": {
+                    "description": "Constant typography label regular level-0",
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 8,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 9,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                }
+            },
+            "bold": {
+                "label0bd05": {
+                    "description": "Constant typography label bold level-5",
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 18,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 600,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 24,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "capitalize"
+                    }
+                },
+                "label0bd04": {
+                    "description": "Constant typography label bold level-4",
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 16,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 18,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                },
+                "label0bd03": {
+                    "description": "Constant typography label bold level-3",
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 14,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 16,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                },
+                "label0bd02": {
+                    "description": "Constant typography label bold level-2",
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 12,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 14,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                },
+                "label0bd01": {
+                    "description": "Constant typography label bold level-1",
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 10,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 11,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                },
+                "label0bd00": {
+                    "description": "Constant typography label bold level-0",
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 8,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 700,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 9,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                }
+            }
+        },
+        "cta": {
+            "cta0xl04": {
+                "description": "Font style large cta",
+                "type": "custom-fontStyle",
+                "value": {
+                    "fontSize": 16,
+                    "textDecoration": "none",
+                    "fontFamily": "Rubik",
+                    "fontWeight": 600,
+                    "fontStyle": "normal",
+                    "fontStretch": "normal",
+                    "letterSpacing": 0,
+                    "lineHeight": 16,
+                    "paragraphIndent": 0,
+                    "paragraphSpacing": 0,
+                    "textCase": "uppercase"
+                }
+            },
+            "cta0md03": {
+                "description": "Font style medium cta",
+                "type": "custom-fontStyle",
+                "value": {
+                    "fontSize": 14,
+                    "textDecoration": "none",
+                    "fontFamily": "Rubik",
+                    "fontWeight": 600,
+                    "fontStyle": "normal",
+                    "fontStretch": "normal",
+                    "letterSpacing": 0,
+                    "lineHeight": 14,
+                    "paragraphIndent": 0,
+                    "paragraphSpacing": 0,
+                    "textCase": "uppercase"
+                }
+            }
+        },
+        "link": {
+            "underline": {
+                "medium": {
+                    "link0md05": {
+                        "description": "Constant typography link medium level-5",
+                        "type": "custom-fontStyle",
+                        "value": {
+                            "fontSize": 18,
+                            "textDecoration": "underline",
+                            "fontFamily": "Rubik",
+                            "fontWeight": 500,
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "letterSpacing": 0,
+                            "lineHeight": 21,
+                            "paragraphIndent": 0,
+                            "paragraphSpacing": 0,
+                            "textCase": "none"
+                        }
+                    },
+                    "link0md04": {
+                        "description": "Constant typography link medium level-4",
+                        "type": "custom-fontStyle",
+                        "value": {
+                            "fontSize": 16,
+                            "textDecoration": "underline",
+                            "fontFamily": "Rubik",
+                            "fontWeight": 500,
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "letterSpacing": 0,
+                            "lineHeight": 18,
+                            "paragraphIndent": 0,
+                            "paragraphSpacing": 0,
+                            "textCase": "none"
+                        }
+                    },
+                    "link0md03": {
+                        "description": "Constant typography link medium level-3",
+                        "type": "custom-fontStyle",
+                        "value": {
+                            "fontSize": 14,
+                            "textDecoration": "underline",
+                            "fontFamily": "Rubik",
+                            "fontWeight": 500,
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "letterSpacing": 0,
+                            "lineHeight": 16,
+                            "paragraphIndent": 0,
+                            "paragraphSpacing": 0,
+                            "textCase": "none"
+                        }
+                    },
+                    "link0md02": {
+                        "description": "Constant typography link medium level-2",
+                        "type": "custom-fontStyle",
+                        "value": {
+                            "fontSize": 12,
+                            "textDecoration": "underline",
+                            "fontFamily": "Rubik",
+                            "fontWeight": 500,
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "letterSpacing": 0,
+                            "lineHeight": 14,
+                            "paragraphIndent": 0,
+                            "paragraphSpacing": 0,
+                            "textCase": "none"
+                        }
+                    },
+                    "link0md01": {
+                        "description": "Constant typography link medium level-1",
+                        "type": "custom-fontStyle",
+                        "value": {
+                            "fontSize": 10,
+                            "textDecoration": "underline",
+                            "fontFamily": "Rubik",
+                            "fontWeight": 500,
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "letterSpacing": 0,
+                            "lineHeight": 11,
+                            "paragraphIndent": 0,
+                            "paragraphSpacing": 0,
+                            "textCase": "none"
+                        }
+                    },
+                    "link0md00": {
+                        "description": "Constant typography link medium level-0",
+                        "type": "custom-fontStyle",
+                        "value": {
+                            "fontSize": 8,
+                            "textDecoration": "underline",
+                            "fontFamily": "Rubik",
+                            "fontWeight": 500,
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "letterSpacing": 0,
+                            "lineHeight": 9,
+                            "paragraphIndent": 0,
+                            "paragraphSpacing": 0,
+                            "textCase": "none"
+                        }
+                    }
+                }
+            }
+        },
+        "h1": {
+            "semibold": {
+                "h1sb10": {
+                    "description": "Constant typography H1 semibold level-10",
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 62,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 600,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 70,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                },
+                "h1sb11": {
+                    "description": "Constant typography H1 semibold level-11",
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 36,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 600,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 41,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                }
+            },
+            "medium": {
+                "h1md10": {
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 62,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 500,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 70,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                },
+                "h1md11": {
+                    "description": "Constant typography H1 medium level-10",
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 36,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 500,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 44,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                }
+            }
+        },
+        "h2": {
+            "regular": {
+                "h2rg21": {
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 32,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 36,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                },
+                "h2rg22": {
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 24,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 27,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                }
+            }
+        },
+        "h3": {
+            "semibold": {
+                "h3sb31": {
+                    "description": "Constant typography h3 semibold level-31",
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 16,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 600,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 2.08,
+                        "lineHeight": 22,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "uppercase"
+                    }
+                }
+            }
+        },
+        "p": {
+            "regualr": {
+                "p0rg06": {
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 24,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 27,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                },
+                "p0rg05": {
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 18,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 21,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                },
+                "p0rg04": {
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 14,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 21,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                },
+                "p0rg02": {
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 12,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 400,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 17,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                }
+            },
+            "medium": {
+                "p0rg06": {
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 24,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 500,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 27,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                },
+                "p0md05": {
+                    "type": "custom-fontStyle",
+                    "value": {
+                        "fontSize": 18,
+                        "textDecoration": "none",
+                        "fontFamily": "Rubik",
+                        "fontWeight": 500,
+                        "fontStyle": "normal",
+                        "fontStretch": "normal",
+                        "letterSpacing": 0,
+                        "lineHeight": 21,
+                        "paragraphIndent": 0,
+                        "paragraphSpacing": 0,
+                        "textCase": "none"
+                    }
+                }
+            }
+        }
+    },
+    "effect": {
+        "shadow": {
+            "light-blu": {
+                "description": null,
+                "type": "custom-shadow",
+                "value": {
+                    "shadowType": "dropShadow",
+                    "radius": 10,
+                    "color": "#e0e5eb96",
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "spread": 0
+                }
+            }
+        }
+    }
+}
